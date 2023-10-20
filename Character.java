@@ -12,8 +12,6 @@ public abstract class Character {
         this.durability = durability;
     }
 
-    // public abstract void strength(Character target);
-
     public String getName() {
         return name;
     }
@@ -30,4 +28,5 @@ public abstract class Character {
         return durability;
     }
 
+    public abstract void info();
 }
